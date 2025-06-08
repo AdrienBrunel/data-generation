@@ -4,7 +4,7 @@ Code that provides a systematic way of building scenarios with a user-defined co
 # Principle
 The main principle is to build realistic spatial distributions for conservation features. Thus, in order to compute the amount of conservation feature in a planning unit, we chose to randomly draw this value in a gaussian distribution whose mean value depends on the distance to the closest (chosen or randomly drawn) epicentres of the conservation feature. If no epicentre is provided, the mean value depends on the distance to the locked-out planning units supposed to represent a shoreline.  
 
-# functions
+# Functions
 Julia scripts used for data generation : 
 * `gen_param.jl` : the user can set parameters according to the scenario desired for data generation. 
   **r_seed** is the random seed.
@@ -32,7 +32,7 @@ Others scripts :
 * `manage_path.jl` : build needed paths in a systematic way only depending on the root directory. 
 
 
-# results
+# Results
 This folder contains csv files and pictures produced by runnig `main.jl` according to the scenario written in `gen_param.jl`
 
 # Infos
